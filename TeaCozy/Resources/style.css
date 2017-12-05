@@ -1,0 +1,151 @@
+body, header{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+
+div{
+  display:block;
+}
+
+/*header*/
+
+header{
+  position: fixed;
+  background: black;
+  color: white;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+ header img{
+  text-align: left;
+  padding-left: 10px;
+  height: 50px;
+  display: block;
+}
+
+nav span{
+  display: inline;
+  padding: 9px;
+}
+
+header a{
+  color: white;
+}
+
+/*Mission Statment*/
+
+
+#mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin:auto;
+}
+
+/*teas of the month*/
+h2 , h4{
+  padding: 10px;
+	margin: 0px;
+  display: block;
+  font-weight: bold;
+  width: 1200px;
+}
+
+#Featured-teas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px
+
+}
+
+.item img{
+  height: 200px;
+	display: block;
+	margin: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* locations*/
+#location{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  }
+  
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .address{
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction:column;
+  justify-content:  top;
+  padding: 10px;
+  margin-top: 50px;
+  margin: auto;
+  margin-right: 40px;
+  
+}
+
+.locations{
+  display: flex;
+  flex-direction: row;
+}
+
+/*footer*/
+
+.footer{
+  height: 200px;
+}
+
+.footer h3{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  margin: 10px;
+}
+
+.footer h5 {
+  margin-top: 10px;
+}
+
+.copyright{
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
